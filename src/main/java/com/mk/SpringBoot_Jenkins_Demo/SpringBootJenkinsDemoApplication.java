@@ -8,7 +8,7 @@ public class SpringBootJenkinsDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootJenkinsDemoApplication.class, args);
-		System.out.println("Welcome");
+		system.out.println("Welcome");
 	}
 
 }
