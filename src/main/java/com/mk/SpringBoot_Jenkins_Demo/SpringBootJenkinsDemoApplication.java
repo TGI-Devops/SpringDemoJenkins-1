@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 @SpringBootApplication
 public class SpringBootJenkinsDemoApplication {
-	 static Logger logger = Logger.getLogger(Manager23.class.getName());
+	 static Logger logger = Logger.getLogger(SpringBootJenkinsDemoApplication.class.getName());
 
 	public static void main(String[] args) {
 
