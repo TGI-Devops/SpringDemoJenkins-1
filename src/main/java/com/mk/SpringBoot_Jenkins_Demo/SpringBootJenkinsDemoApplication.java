@@ -19,6 +19,9 @@ public class SpringBootJenkinsDemoApplication {
 		System.out.println("Welcome");
 
 		add();
+
+				System.out.println("completed ");
+
 	}
 
 	
