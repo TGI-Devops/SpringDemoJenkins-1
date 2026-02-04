@@ -2,13 +2,14 @@ package com.mk.SpringBoot_Jenkins_Demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import java.util.logging.Logger;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @SpringBootApplication
 public class SpringBootJenkinsDemoApplication {
-	 static Logger logger = Logger.getLogger(SpringBootJenkinsDemoApplication.class.getName());
-
+ private static final Logger logger =
+            LogManager.getLogger(SpringBootJenkinsDemoApplication.class);
 	public static void main(String[] args) {
 
 		 logger.info("Application started");
