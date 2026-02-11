@@ -19,6 +19,7 @@ public class SpringBootJenkinsDemoApplication {
 				 logger.info("Application is working  fine");
 
 		System.out.println("Welcome");
+		System.out.println("Welcome");
 
 		add();
 
